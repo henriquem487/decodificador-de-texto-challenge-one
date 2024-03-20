@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Challenge Alura</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <img class="logoAlura" src="img/logo.png" alt="Uma imagem do logo da alura">
+        </header>
+        <main>
+            <section>
+                <textarea rows="5" class="areaTexto" placeholder="Digite seu texto." required autocomplete="off"></textarea>
+                
+                <div class="atencao">
+                    <h6>Apenas letras minusculas e sem acento.</h6>
+                </div>
+                
+                <div class="botoes">
+                    <button class="btn-criptografar" onclick="btnEncriptar()">Criptografar</button>
+                    <button class="btn-descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
+                </div>
+            </section>
+
+            <section>
+                <textarea class="saidaTexto"></textarea>
+                <button class="btn-copiar" onclick="copiar()">Copiar</button>
+            </section>
+        </main>
+        <footer class="rodape">
+            <div class="conteudoRodape">
+                <h6>GitHub</h6>
+                <a href="https://github.com/henriquem487"><img class="logoGit" src="img/github-logo.png" alt="Imagem do logo do GitHub"></a>
+                <h6>Desenvolvido por Henrique Paslandim</h6>
+            </div>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>

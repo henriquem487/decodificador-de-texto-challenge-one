@@ -1,0 +1,128 @@
+* {
+    background: #E9F9EF;
+    font-family: 'inter', sans-serif;
+    /*Peso da fonte*/
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+/*Seletor de classe "."*/
+.logoAlura {
+    position: absolute;
+    margin-left: 40px;
+    padding-top: 40px;
+    width: 120px;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.areaTexto {
+    border: none;
+    color: #0a3871;
+    margin-left: 150px;
+    margin-top: 168px;
+
+    text-transform: lowercase;
+    resize: none;
+}
+
+::placeholder {color: #0a3871;} .areaTexto:focus{
+    outline: none;
+}
+
+.saidaTexto {
+    background: white;
+    background-image: url(/img/boneco.png);
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    width: 400px;
+    height: 685px;
+    left: 1000px;
+    margin-top: 44px;
+    position: absolute;
+    resize: none;
+}
+
+.saidaTexto:focus {
+    outline: none;
+}
+
+.atencao {
+    position: absolute;
+    width: 352px;
+    height: 18px;
+    left: 240px;
+    top: 500px;
+    color: #495057;
+    font-size: 18px;
+}
+
+.botoes {
+    position: absolute;
+    display: flex;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 545px;
+}
+
+.btn-descriptografar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-criptografar {
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    left: 1032px;
+    top: 545px;
+    position: absolute;
+    width: 336px;
+}
+
+.conteudoRodape {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-family: 'inter', sans-serif;
+    /*Peso da fonte*/
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.logoGit {
+    width: 50px;
+}
+
+.nomeGit {
+    text-decoration: none;
+    color: #0A3871;
+}
